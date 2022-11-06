@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, red, blue);
+}
+.qosh {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.200);
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 350px;
+}
+.qosh header {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.qosh input {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  outline: none;
+  padding: 0 0 0 20px;
+  max-width: 200px;
+}
+.btn-qosh {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(7, 147, 247);
+}
+.qosh2 {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 12px;
+}
+.item-todo {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 23px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+.item-text {
+  word-break: break-all;
+  width: 340px;
+  line-break: normal;
+}
+.item-x {
+  width: 50px;
+  background-image: url('./x.png');
+  scale: 0.9;
+
+  height: 50px;
+}
+.container {
+  margin-top: 8px;
+  border-radius: 15px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  max-width: 350px;
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+.strike {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  font-weight: 1000;
+}
+.item-todo:last-child {
+  margin: 0;
+}
